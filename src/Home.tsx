@@ -167,6 +167,8 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
+      <h1>Welcome to the Deus-ex-machina NFT minting site </h1>
+      <h2>Design and features coming soon...</h2>
       {wallet && (
         <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
       )}
